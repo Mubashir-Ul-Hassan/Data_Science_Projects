@@ -8,12 +8,12 @@ We appreciate your interest in contributing to this data science project! Please
 2. **Clone Your Fork**:
    - Clone your forked repository to your local machine:
      ```bash
-     git clone https://github.com/your-username/repository-name.git
+     git clone https://github.com/Mubashir-Ul-Hassan/data-science-projects.git
      ```
 3. **Create a Branch**:
    - Create a new branch for your feature or bug fix:
      ```bash
-     git checkout -b branch-name
+     git checkout -b main
      ```
 4. **Make Your Changes**:
    - Add new code or make improvements. Be sure to follow the code quality guidelines mentioned below.
@@ -21,12 +21,12 @@ We appreciate your interest in contributing to this data science project! Please
    - Commit your changes with a clear and descriptive commit message:
      ```bash
      git add .
-     git commit -m "Add brief explanation of changes"
+     git commit -m 
      ```
 6. **Push to Your Fork**:
    - Push the changes to your forked repository:
      ```bash
-     git push origin branch-name
+     git push origin main
      ```
 7. **Submit a Pull Request**:
    - Go to the original repository on GitHub and submit a pull request (PR) from your forked branch.
