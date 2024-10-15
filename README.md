@@ -2,8 +2,6 @@
 
 Welcome to the **Data Science Projects Repository**! This project is created to encourage open-source contributions during Hacktoberfest 2024. Whether you’re an experienced data scientist or just starting out, you can contribute and learn through hands-on experience.
 
-![Data Science](https://images.app.goo.gl/83uYof45AzdbWSWK6.jpg) 
-
 ## 🎯 Project Overview
 This repository contains various data science projects that cover a wide range of topics including:
 - Data cleaning and preprocessing
@@ -33,7 +31,7 @@ To set up this repository on your local machine, follow these steps:
    ```bash
    git clone https://github.com/Mubashir-Ul-Hassan/data-science-projects.git
 
-👨‍💻 Contribution Guidelines
+## 👨‍💻 Contribution Guidelines
 Contributions are welcome! To get started, check out our CONTRIBUTING.md file for guidelines on how to fork, submit pull requests, and more. Issues labeled with hacktoberfest are specifically looking for contributors.
 
 We encourage contributions in the following areas:
@@ -44,29 +42,11 @@ Optimizing machine learning models
 Documentation and tutorials
 
 
-🤝 Code of Conduct
-Please read our 👨‍💻 Contribution Guidelines
-Contributions are welcome! To get started, check out our CONTRIBUTING.md file for guidelines on how to fork, submit pull requests, and more. Issues labeled with hacktoberfest are specifically looking for contributors.
+## 🤝 Code of Conduct
+Please read our [Code of Conduct](CODE_OF_CONDUCT.md) to understand the community standards we follow to create a welcoming and inclusive environment.
 
-We encourage contributions in the following areas:
-
-Enhancing existing data science scripts
-Adding new data visualizations
-Optimizing machine learning models
-Documentation and tutorials
-🤝 Code of Conduct
-Please read our Code of Conduct to understand the community standards we follow to create a welcoming and inclusive environment.
-
-📞 Contact Information
+## 📞 Contact Information
 For any questions or clarifications, feel free to reach out:
 
 GitHub Issues: Open an issue if you find any bugs or need help.
-Email: akhtarmubashir809@gmail.com to understand the community standards we follow to create a welcoming and inclusive environment.
-
-📞 Contact Information
-For any questions or clarifications, feel free to reach out:
-
-GitHub Issues: Open an issue if you find any bugs or need help.
-Email: akhtarmubashir809@gmail.com   
-
-   
+Email: akhtarmubashir809@gmail.com
