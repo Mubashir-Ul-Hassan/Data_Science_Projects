@@ -2,7 +2,7 @@
 
 Welcome to the **Data Science Projects Repository**! This project is created to encourage open-source contributions during Hacktoberfest 2024. Whether you’re an experienced data scientist or just starting out, you can contribute and learn through hands-on experience.
 
-![Data Science]([https://example.com/your-image-link.png](https://images.app.goo.gl/83uYof45AzdbWSWK6)) 
+![Data Science](https://example.com/your-image-link.png](https://images.app.goo.gl/83uYof45AzdbWSWK6) 
 
 ## 🎯 Project Overview
 This repository contains various data science projects that cover a wide range of topics including:
@@ -61,7 +61,7 @@ Please read our Code of Conduct to understand the community standards we follow 
 For any questions or clarifications, feel free to reach out:
 
 GitHub Issues: Open an issue if you find any bugs or need help.
-Email: contact@example.com to understand the community standards we follow to create a welcoming and inclusive environment.
+Email: akhtarmubashir809@gmail.com to understand the community standards we follow to create a welcoming and inclusive environment.
 
 📞 Contact Information
 For any questions or clarifications, feel free to reach out:
