@@ -30,3 +30,4 @@ accuracy = accuracy_score(y_test, y_pred)
 
 # Print the accuracy score
 print(f'Accuracy Score: {accuracy:.2f}')
+ 
