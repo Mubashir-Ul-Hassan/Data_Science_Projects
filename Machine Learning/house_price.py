@@ -17,3 +17,9 @@ y=data["House_Price"]
 
 x_train,x_test,y_train,y_test = train_test_split(x,y,test_size=0.20,random_state=3000)
 
+model=svm.SVR(kernel='linear',C=0.1,gamma=1)
+model.fit(x_train,y_train)
+
+y_pred=model.predict(x_test)
+
+print(accuracy_score(y_test,y_pred))
