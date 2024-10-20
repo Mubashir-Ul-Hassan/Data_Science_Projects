@@ -18,3 +18,13 @@ x=data[["precipitation",'temp_max','temp_min','wind']]
 y=data["weather"]
 
 x_train,x_test,y_train,y_test = train_test_split(x,y,test_size=0.20,random_state=3000)
+
+
+model=RandomForestClassifier(n_estimators=100,random_state=10)
+model.fit(x_train,y_train)
+
+
+y_pred=model.predict(x_test)
+
+
+print(accuracy_score(y_test,y_pred))
