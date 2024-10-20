@@ -21,3 +21,12 @@ sns.scatterplot(x="total_bill",y="tip",data=df)
 
 x_train, x_test, y_train, y_test = train_test_split(x,y,test_size=0.2,random_state=200)
 
+model=RandomForestRegressor(n_estimators=100,random_state=0)
+model.fit(x_train,y_train)
+
+y_pred =model.predict(x_test)
+
+print(mean_squared_error(y_test,y_pred))
+print(r2_score(y_test,y_pred))
+
+
