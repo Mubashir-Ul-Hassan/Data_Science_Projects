@@ -64,3 +64,35 @@ X_test.shape
 y_train.shape
 
 y_test.shape
+
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import confusion_matrix,accuracy_score
+
+model=LinearRegression()
+
+model.fit(X_train,y_train)
+
+model.coef_
+
+model.intercept_
+
+predict=model.predict(X_test)
+
+predict
+
+print(X_test)
+
+predict.shape
+
+dframe=pd.DataFrame(y_test,predict)
+
+dfr=pd.DataFrame({'Actual':y_test,'predict':predict})
+
+dfr
+
+dfr.head()
+
+dfr.tail()
+
+model.score(X_test,y_test)
+
