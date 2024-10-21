@@ -47,3 +47,20 @@ X.shape
 
 y.shape
 
+from sklearn.model_selection import train_test_split
+
+X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.2,random_state=42)
+
+from sklearn.neighbors import KNeighborsClassifier
+
+model=KNeighborsClassifier(n_neighbors=5)
+
+from sklearn.impute import SimpleImputer
+imputer = SimpleImputer(strategy='mean')
+X_train = imputer.fit_transform(X_train)
+
+X_test=imputer.fit_transform(X_test)
+
+model.fit(X_train,y_train)
+
+print('Accuracy Score:',model.score(X_test,y_test))
