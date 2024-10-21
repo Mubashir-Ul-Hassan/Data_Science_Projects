@@ -46,3 +46,25 @@ len(x_train)
 
 len(x_test)
 
+from sklearn.neighbors import KNeighborsClassifier
+knn=KNeighborsClassifier(n_neighbors=3)
+
+knn.fit(x_train,y_train)
+
+knn.score(x_train,y_train)
+
+from sklearn.metrics import confusion_matrix
+y_pred=knn.predict(x_test)
+cm=confusion_matrix(y_test,y_pred)
+cm
+
+knn.predict(x_test)
+
+%matplotlib inline 
+import matplotlib.pyplot as plt 
+import seaborn as sns 
+plt.figure(figsize=(12,8))
+sns.heatmap(cm,annot=True)
+plt.xlabel('Predicted')
+plt.ylabel('Truth')
+
