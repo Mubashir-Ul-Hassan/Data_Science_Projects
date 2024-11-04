@@ -1,4 +1,4 @@
-# Data Science Projects for Hacktoberfest 2024 🌟
+# Data Science Projects🌟
 
 Welcome to the **Data Science Projects Repository**! This project is created to encourage open-source contributions during Hacktoberfest 2024. Whether you’re an experienced data scientist or just starting out, you can contribute and learn through hands-on experience.
 
